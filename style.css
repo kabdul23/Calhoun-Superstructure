@@ -1,0 +1,259 @@
+h1 {
+  font-family: 'Overpass', sans-serif;  
+}
+/*-----Navigation-----*/
+.navbar-inverse {
+ background: #024c61;
+}
+
+.navbar-header {
+  margin: 0;
+  padding: 0;
+  float: right;
+  height: 40px;
+}
+
+.navbar-toggle {
+   text-align: left;
+}
+
+.nav-phone {
+  display: block;
+  float: right;
+  height: auto;
+  margin-top: -2%;
+  margin-right: 2%;
+  color: #fff;
+  text-decoration: none;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+
+#right {
+    float: right;
+    text-align: left;
+}
+
+.menu-logo {
+    background: #eb1a21;
+    position: absolute;
+    height: 70px;
+    padding: 10px 15px;
+}
+
+@media (min-width: 1000px) {
+.menu-logo {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    position: absolute;
+    height: auto;
+    margin-left: 15px;
+}
+}
+
+.carousel-inner {
+    margin-top: 6%;
+}
+
+.owl-page {
+    display: inline-block;
+    padding: 16px 60px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.owl-controls {
+    background: #eb1a21;
+    text-align: center;
+}
+
+.home-slider .owl-theme .owl-controls {
+    margin: 0;
+}
+
+/*---Info---*/
+.info {
+    text-align: center;
+}
+
+.about h1 {
+    color: #eb1a21; 
+    font-weight: bold;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.info p {
+    color: black;
+}
+
+.work-site {
+    background: url("https://calhounsuperstructure.com/wp-content/uploads/2015/05/video-image.jpg?id=110") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 645px;
+}
+
+.aware {
+    background-color: #eb1a21;
+    height: auto;
+    text-align: center;
+    padding: 40px 0; 
+    padding-bottom: -15%;
+}
+#thought h1 {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.aware p {
+    color: #fff;
+}
+
+.bridge {
+    margin-left: 2%;
+}
+
+#myCarousel2 {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: -3%;
+   
+}
+
+/*------Get Started------*/
+.get-started {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.get-started h1, h3, p {
+    color: #024c61;
+}
+
+.get-started h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.get-started p {
+    line-height: 1em;
+}
+
+.get-started h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.get-started .btn {
+    margin-top: 17px;
+}
+
+.btn.red {
+    border-color: #eb1a21;
+    border: 2px solid;
+}
+
+.btn.red:hover {
+    background-color: #eb1a21;
+    color: #fff;
+}
+
+.btn.blue {
+    background-color: #fff;
+    color: #024c61;
+    border-color: #024c61;
+    border: 2px solid;
+}
+
+.btn.blue:hover {
+    background-color: #024c61;
+    color: #fff;
+}
+
+
+.btn-reddy {
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #fff;
+    color: #eb1a21;
+    border: 2px solid;
+    border-color: #eb1a21;
+}
+
+.btn {
+    border: 0;
+    border-radius: 0;
+    min-width: 250px;
+    padding: 12px 12px;
+}
+
+/*-----FOOTER------*/
+.footer {
+    background-color: #024c61;
+    color: #fff; 
+    margin-top: 60px;
+}
+
+.footer h1 {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.article-more a {
+    color: #fff;
+}
+
+.fa-chevron-right {
+    color: white;
+}
+@media (max-width: 768px) {
+.footer #menu-footer-menu {
+    margin: 35px 0;
+    width: 100%;
+}
+}
+
+.footer #menu-footer-menu {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 15px;
+    text-align: right;
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.location {
+    text-align: right;
+}
+
+.social-icons li {
+    float: right;
+    display: inline-block; 
+}
+
+.footer .social-icons ul li a .fa-circle {
+    color: #fff;
+}
+
+.footer .social-icons ul li a .fa-facebook, .fa-twitter, .fa-linkedin  {
+   color: #024c61;
+}
