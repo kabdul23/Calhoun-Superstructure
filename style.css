@@ -40,7 +40,7 @@ h1 {
     background: #eb1a21;
     position: absolute;
     height: 70px;
-    padding: 10px 15px;
+    padding: 5px 10px;
 }
 
 @media (min-width: 1000px) {
